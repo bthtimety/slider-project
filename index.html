@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="left-section">
+        <div class="left-section__title">
+            <h2>COMPLETED PROJECTS</h2>
+            <div class="title__line"></div>
+        </div>
+        <p>
+            Only a small part of the work performed by our company is presented on the site.
+            For 14 years on in the construction market we have made happy more than 1000 families
+        </p>
+        <div class="left-section__project-info">
+            <div class="project-info__city">
+                <h3>CITY:</h3>
+                <p id="text_city"></p>
+                <p id="text_project"></p>
+            </div>
+            <div class="project-info__apartment-area">
+                <h3>APARTMENT AREA:</h3>
+                <p id="text_area"></p>
+            </div>
+            <div class="project-info__repair-time">
+                <h3>REPAIR TIME:</h3>
+                <p id="text_time"></p>
+            </div>
+            <div class="project-info__repair-cost">
+                <h3>REPAIR COST:</h3>
+                <p id="text_cost"></p>
+            </div>
+        </div>
+        <nav class="left-section__nav">
+            <span class="nav__arrow" id="left_arrow">
+                <img src="./img/left-arrow.svg" alt="left-arrow">
+            </span>
+            <div class="nav__points">
+                <span class="nav__point1 point-active">
+                    <img src="" alt="point">
+                </span>
+                <span class="nav__point2">
+                    <img src="" alt="point">
+                </span>
+                <span class="nav__point3">
+                    <img src="" alt="point">
+                </span>
+            </div>
+            <span class="nav__arrow" id="right_arrow">
+                <img src="./img/right-arrow.svg" alt="right-arrow">
+            </span>
+        </nav>
+    </section>
+    <section class="right-section">
+        <nav class="right-section__nav">
+            <ul>
+                <li class="nav__item" id="nav_rostovAdmiral">ROSTOV-ON-DON, ADMIRAL</li>
+                <li class="nav__item" id="nav_sochiThieves">SOCHI THIEVES</li>
+                <li class="nav__item" id="nav_rostovPatriotic">ROSTOV-ON-DON PATRIOTIC</li>
+            </ul>
+        </nav>
+        <div class="right-section__img">
+            <img id="apartment_image" src="" alt="apartment">
+        </div>
+    </section>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
