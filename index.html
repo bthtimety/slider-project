@@ -7,9 +7,18 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap"
+          rel="stylesheet">
 </head>
 <body>
+<main class="layout">
+    <nav class="nav">
+        <ul>
+            <li class="nav__item nav__item_active" id="nav_rostovAdmiral">ROSTOV-ON-DON, ADMIRAL</li>
+            <li class="nav__item" id="nav_sochiThieves">SOCHI THIEVES</li>
+            <li class="nav__item" id="nav_rostovPatriotic">ROSTOV-ON-DON PATRIOTIC</li>
+        </ul>
+    </nav>
     <section class="left-section">
         <div class="left-section__title">
             <h2>COMPLETED PROJECTS</h2>
@@ -43,7 +52,7 @@
                 <img src="./img/left-arrow.svg" alt="left-arrow">
             </span>
             <div class="nav__points">
-                <span class="nav__point1 point-active">
+                <span class="nav__point1 point_active">
                     <img src="" alt="point">
                 </span>
                 <span class="nav__point2">
@@ -59,17 +68,11 @@
         </nav>
     </section>
     <section class="right-section">
-        <nav class="right-section__nav">
-            <ul>
-                <li class="nav__item" id="nav_rostovAdmiral">ROSTOV-ON-DON, ADMIRAL</li>
-                <li class="nav__item" id="nav_sochiThieves">SOCHI THIEVES</li>
-                <li class="nav__item" id="nav_rostovPatriotic">ROSTOV-ON-DON PATRIOTIC</li>
-            </ul>
-        </nav>
         <div class="right-section__img">
             <img id="apartment_image" src="" alt="apartment">
         </div>
     </section>
-    <script src="./scripts/main.js"></script>
+</main>
+<script src="./main.js"></script>
 </body>
 </html>
