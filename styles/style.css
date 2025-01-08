@@ -7,6 +7,7 @@ body {
     background-color: #131313;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
@@ -85,11 +86,12 @@ p {
 }
 
 .left-section__project-info {
-    margin-top: 42px;
+    margin-top: 8px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     h3 {
+        margin-top: 34px;
         font-size: 18px;
     }
 
@@ -101,7 +103,7 @@ p {
 }
 
 .left-section__nav {
-    margin-top: 80px;
+    margin-top: 125px;
     display: flex;
     gap: 30px;
 }
@@ -109,6 +111,10 @@ p {
 .nav__points {
     display: flex;
     gap: 18px;
+}
+
+.nav__arrow, .nav__point {
+    cursor: pointer;
 }
 
 .right-section {
